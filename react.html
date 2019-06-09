@@ -1,0 +1,16 @@
+import React from 'react'
+class ClickCounter extends React.Component{
+  constructor(props) {
+    super(props)
+    this.state = {count: 0};
+  }
+
+  render() {
+    return (
+    <div>
+      <button>CLICK ME!!!</button>
+      <span>{this.state.count}</span>
+      </div>
+    );
+  }
+}
